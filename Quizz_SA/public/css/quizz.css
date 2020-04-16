@@ -1,0 +1,122 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     font-family: Helvetica;
+ }
+ 
+ .header {
+     background-color: #042425;
+     height: 100px;
+ }
+ 
+ .logo {
+     background-image: url(../images/logo-QuizzSA.png);
+     background-repeat: no-repeat;
+     background-size: 39%;
+     width: 11%;
+     height: 94px;
+     margin-left: 50px;
+ }
+ 
+ .header-text {
+     color: #f8fdfd;
+     position: absolute;
+     top: 20px;
+     left: 35%;
+     font-size: 45px;
+     font-weight: bold;
+ }
+ 
+ .contenir {
+     background-image: url(../images/img-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 640px;
+ }
+ 
+ .container {
+     position: relative;
+     top: 20%;
+     left: 30%;
+     height: 60%;
+     width: 40%;
+     background-color: #f8fdfd;
+ }
+ 
+ .container-tete {
+     height: 100px;
+     background-color: #51bfd0;
+ }
+ 
+ .title {
+     color: #f8fdfd;
+     font-size: 20px;
+     font-weight: bold;
+     padding: 39px;
+ }
+ 
+ .input-form {
+     height: 60px;
+     margin: 10px 25px;
+     padding: 5px;
+ }
+ 
+ .form-control {
+     width: 100%;
+     height: 50px;
+     border-radius: 3%;
+     border: 1px solid #818181;
+     font-size: 20px;
+     font-weight: bold;
+     color: #818181;
+ }
+ 
+ .icon-form {
+     height: 35px;
+     width: 30px;
+     position: relative;
+     top: 50px;
+     left: 95%;
+ }
+ 
+ .icon-form-login {
+     background-image: url(../icones/ic-login.png);
+     background-repeat: no-repeat;
+ }
+ 
+ .icon-form-passwrd {
+     background-image: url(../icones/ic-password.png);
+     background-repeat: no-repeat;
+ }
+ 
+ .erreur-form {
+     color: red;
+     width: 100%;
+     font-size: 16px;
+     font-weight: bold;
+ }
+ 
+ .button-form {
+     margin-top: 35px;
+     color: #f8fdfd;
+     background-color: #51bfd0;
+     font-size: 20px;
+     font-weight: bold;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid #51bfd0;
+ }
+ 
+ .lien-form {
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: bold;
+     color: #818181;
+     margin-left: 35px;
+ }
+ 
+ .Message {
+     color: red;
+     font-size: 16px;
+     font-weight: bold;
+ }
